@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "984508371881",
+    "firebase_url": "https://projectag24-2-default-rtdb.firebaseio.com",
+    "project_id": "projectag24-2",
+    "storage_bucket": "projectag24-2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984508371881:android:4e1a09db99531785092ab8",
+        "android_client_info": {
+          "package_name": "com.example.ar_base_home_automation"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAF-sjJPXQ2Ynt95DW7-dyXGDMLx1-zb44"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984508371881:android:59d67b009c021cc0092ab8",
+        "android_client_info": {
+          "package_name": "org.tensorflow.lite.examples.classification"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAF-sjJPXQ2Ynt95DW7-dyXGDMLx1-zb44"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

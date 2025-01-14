@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registration"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Registration"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:elevation="10dp"
+            app:cardCornerRadius="10dp"
+
+            >
+
+            <LinearLayout
+                android:id="@+id/activity_registration"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingLeft="16dp"
+                android:paddingTop="20dp"
+                android:paddingRight="16dp"
+
+                android:paddingBottom="16dp"
+                tools:context="com.example.user4.socialcomplaint_v1.RegistrationActivity">
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Name">
+                    <!--this is the actual edit text which takes the input-->
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:drawablePadding="5dp"
+                        android:fontFamily="serif"
+                        android:inputType="text" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:hint="Enter Address">
+                    <!--this is the actual edit text which takes the input-->
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etAddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:drawablePadding="5dp"
+                        android:fontFamily="serif"
+                        android:inputType="text" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:hint="Enter Contact">
+                    <!--this is the actual edit text which takes the input-->
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etContact"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:drawablePadding="5dp"
+                        android:fontFamily="serif"
+                        android:inputType="phone" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:hint="Enter Email">
+                    <!--this is the actual edit text which takes the input-->
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etMail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:drawablePadding="5dp"
+                        android:fontFamily="serif"
+                        android:inputType="text" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:hint="Enter Aadhar NO">
+                    <!--this is the actual edit text which takes the input-->
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etAadhar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:drawablePadding="5dp"
+                        android:fontFamily="serif"
+                        android:inputType="phone" />
+                </com.google.android.material.textfield.TextInputLayout>
+                />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/filledTextField"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:hint="Enter Password">
+                    <!--this is the actual edit text which takes the input-->
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:drawablePadding="5dp"
+                        android:fontFamily="serif"
+                        android:inputType="text" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:hint="Re-Enter Password">
+                    <!--this is the actual edit text which takes the input-->
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etConformpassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:drawablePadding="5dp"
+                        android:fontFamily="serif"
+                        android:inputType="text" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!--  <com.google.android.material.textfield.TextInputLayout
+
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter OTP"
+        android:layout_marginTop="7dp"
+        >
+        &lt;!&ndash;this is the actual edit text which takes the input&ndash;&gt;
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etotp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:drawablePadding="5dp"
+            android:inputType="text"
+            android:fontFamily="serif"/>
+    </com.google.android.material.textfield.TextInputLayout>-->
+
+                <!-- <Button
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:id="@+id/btn_otp"
+        android:layout_marginTop="15dp"
+
+        android:textColor="#fff"
+        android:textSize="15dp"
+        android:text="Send OTP to Mobile No"/>
+
+
+-->
+
+                <Button
+                    android:id="@+id/btn_reg"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@color/grey"
+                    android:text="Register"
+                    android:textColor="@color/black"
+                    android:textSize="15dp" />
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </ScrollView>
+
+</LinearLayout>

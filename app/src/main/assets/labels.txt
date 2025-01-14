@@ -1,0 +1,2 @@
+0 fan
+1 light
